@@ -1,4 +1,4 @@
-source help.bash
+source ~/init/help.bash
 
 #update
 alias update="cd ~/init && git pull"
