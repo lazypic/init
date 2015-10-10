@@ -1,0 +1,4 @@
+중국에서 안되는 서비스
+google -> baidu.com
+google service
+check : gfw (great firewall) : www.greatfirewallofchina.org
