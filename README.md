@@ -8,7 +8,7 @@ tar -xzf go1.5.linux-amd64.tar.gz
 ```
 # install Env
 ```
-git clone https://github.com/khw7096/lazypicinit.git ~/lazypicinit
+git clone https://github.com/lazypic/lazypicinit.git ~/lazypicinit
 cd lazypicinit
 sh setup.sh
 ```
