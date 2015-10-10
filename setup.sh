@@ -1,6 +1,6 @@
 
 if [[ `uname` == 'Linux' ]]; then
-	echo "source ~/lazypicinit/init.bash" >> ~/.bashrc
+	echo "source ~/init/init.bash" >> ~/.bashrc
 elif [[ `uname` == "Darwin" ]]; then
-	echo "source ~/lazypicinit/init.bash" >> ~/.profile
+	echo "source ~/init/init.bash" >> ~/.profile
 fi

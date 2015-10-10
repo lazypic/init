@@ -1,15 +1,13 @@
-source ~/lazypicinit/help.bash
+source help.bash
 
 #update
-alias update="cd ~/lazypicinit && git pull"
+alias update="cd ~/init && git pull"
 
 #golang setting
-export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 export GO15VENDOREXPERIMENT=1
-export PATH=$PATH:$GOBIN:$GOROOT/bin
 
 #web
 if [[ `uname` == 'Linux' ]] || [[ `uname` == 'MINGW'* ]]; then
