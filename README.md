@@ -1,8 +1,7 @@
 
 # bash setting.
 ```
-cd ~
-git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
+cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 ```
 
 # recommand install. 
