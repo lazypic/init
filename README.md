@@ -6,7 +6,6 @@ tar -xzf go1.5.linux-amd64.tar.gz
 ```
 # install Env
 ```
-git clone https://github.com/lazypic/init.git ~/init
-cd init
-sh setup.sh
+cd ~
+git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 ```
