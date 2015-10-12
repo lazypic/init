@@ -5,7 +5,7 @@ cd ~
 git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 ```
 
-# recommand install list. 
+# recommand install. 
 - golang : http://www.golang.org
 ```
 cd /usr/local
