@@ -23,7 +23,9 @@ fi
 
 #connect url
 alias ff="find . -name $1"
+alias g="browser http://www.google.com"
 alias reddit="browser http://www.reddit.com/r/golang"
+alias wacom="browser http://www.wacom.com/en-us/support/intuos-pro-support-detail"
 alias cloudb="browser http://cloud.blender.org"
 alias vimeo="browser https://vimeo.com/channels/lazypic"
 alias youtube="browser http://www.youtube.com"
