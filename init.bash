@@ -14,6 +14,14 @@ if [ -d "$HOME/go" ]; then
 	export GO15VENDOREXPERIMENT=1
 fi
 
+go() {
+	if [[ $1 == 'to' ]]; then
+		command cd $GOPATH/src/$2;
+	else
+		command go $*;
+	fi
+}
+
 #dependency command for other OS.
 if [[ `uname` == 'Linux' ]] || [[ `uname` == 'MINGW'* ]]; then
 	alias browser="firefox"
