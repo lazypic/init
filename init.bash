@@ -3,7 +3,7 @@ source ~/init/help.bash
 
 #update cmd for artist
 if [ -d "$HOME/init" ]; then
-	alias update="cd ~/init && git pull"
+	alias update="cd ~/init && git pull && cd \$OLDPWD"
 fi
 
 #golang setting
