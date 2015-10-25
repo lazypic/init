@@ -1,4 +1,3 @@
-clear
 echo "======= Lazypic Alias ========"
 echo "blender : run blender"
 echo "wiki : open wiki"
