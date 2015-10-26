@@ -31,7 +31,7 @@ fi
 
 #google search
 g() {
-	$browser "http://www.google.com/search?q=$1";
+	$browser "http://www.google.com/search?q=$*";
 }
 
 #other connect url
