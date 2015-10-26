@@ -35,7 +35,6 @@ g() {
 }
 
 #other connect url
-alias ff="find . -name $1"
 alias flameman="$browser http://docs.autodesk.com/flamepremium2015"
 alias reddit="$browser http://www.reddit.com/r/golang"
 alias wacom="$browser http://www.wacom.com/en-us/support/intuos-pro-support-detail"
@@ -54,4 +53,6 @@ alias homepage="$browser http://lazyd.org"
 alias googledrive="$browser https://drive.google.com/drive/my-drive"
 alias godoc="$browser https://golang.org/pkg/"
 alias baidu="$browser https://www.baidu.com"
+
+alias ff="find . -name $1"
 
