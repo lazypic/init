@@ -55,4 +55,4 @@ alias godoc="$browser https://golang.org/pkg/"
 alias baidu="$browser https://www.baidu.com"
 
 alias ff="find . -name $1"
-
+alias vim=tor
