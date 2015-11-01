@@ -5,11 +5,6 @@ cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 ```
 
 # recommand install. 
-- golang : http://www.golang.org
-```
-cd /usr/local
-wget https://storage.googleapis.com/golang/go1.5.linux-amd64.tar.gz
-tar -xzf go1.5.linux-amd64.tar.gz
-```
+- golang : https://golang.org/doc/install?download=go1.5.1.linux-amd64.tar.gz
 - sift : ```go get github.com/svent/sift```
 - tor : ```go get -u github.com/kybin/tor```
