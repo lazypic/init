@@ -15,3 +15,7 @@ tar -xzf go1.5.linux-amd64.tar.gz
 ```
 go get github.com/svent/sift
 ```
+- tor
+```
+go get -u github.com/kybin/tor
+```
