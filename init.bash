@@ -16,9 +16,17 @@ fi
 
 go() {
 	if [[ $1 == 'to' ]]; then
-		command cd $GOPATH/src/$2;
+		command cd $GOPATH/src/$2
 	else
-		command go $*;
+		command go $*
+	fi
+}
+
+git() {
+	if [[ $@ == "log" ]]; then
+		command git log --graph --oneline --decorate --all
+	else
+		command git "$@"
 	fi
 }
 
