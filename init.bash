@@ -63,6 +63,7 @@ alias homepage="$browser http://lazyd.org"
 alias googledrive="$browser https://drive.google.com/drive/my-drive"
 alias godoc="$browser https://golang.org/pkg/"
 alias baidu="$browser https://www.baidu.com"
+alias conference_room="$browser http://www.goyang.go.kr/kr/facilities/main.do"
 
 alias ff="find . -name $1"
 #alias vim=tor #It is very special option.
