@@ -62,7 +62,7 @@ alias aws="$browser https://console.aws.amazon.com"
 alias wiki="$browser http://sites.google.com/site/lazypicweb"
 alias homepage="$browser http://lazyd.org"
 alias googledrive="$browser https://drive.google.com/drive/my-drive"
-alias godoc="$browser https://golang.org/pkg/"
+alias godoc="go doc"
 alias baidu="$browser https://www.baidu.com"
 alias conference_room="$browser http://www.goyang.go.kr/kr/facilities/main.do"
 
