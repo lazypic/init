@@ -44,6 +44,7 @@ g() {
 
 #other connect url
 alias flameman="$browser http://docs.autodesk.com/flamepremium2015"
+alias chat="$browser http://lazyd.org:8065/lazyd-dev/channels/town-square"
 alias reddit="$browser http://www.reddit.com/r/golang"
 alias wacom="$browser http://www.wacom.com/en-us/support/intuos-pro-support-detail"
 alias cloudb="$browser http://cloud.blender.org"
