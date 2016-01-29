@@ -31,8 +31,10 @@ git() {
 }
 
 #dependency command for other OS.
-if [[ `uname` == 'Linux' ]] || [[ `uname` == 'MINGW'* ]]; then
+if [[ `uname` == 'Linux' ]]; then
 	browser="firefox"
+elif [[ `uname` == 'MINGW'* ]]; then
+	browser="start"
 elif [[ `uname` == 'Darwin' ]]; then
 	browser="open"
 fi
