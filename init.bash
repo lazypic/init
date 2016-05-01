@@ -68,6 +68,7 @@ alias googledrive="$browser https://drive.google.com/drive/my-drive"
 alias godoc="go doc"
 alias baidu="$browser https://www.baidu.com"
 alias conference_room="$browser http://www.goyang.go.kr/kr/facilities/main.do"
+alias optimizilla="$browser http://optimizilla.com/ko/"
 
 alias ff="find . -name $1"
 #alias vim=tor #It is very special option.
