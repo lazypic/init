@@ -6,13 +6,23 @@ if [ -d "$HOME/init" ]; then
 	alias update="cd ~/init && git pull && cd \$OLDPWD"
 fi
 
-#golang setting
-if [ -d "$HOME/go" ]; then
-	export GOPATH=$HOME/go
-	export GOBIN=$GOPATH/bin
-	export PATH=$PATH:$GOBIN
-	export GO15VENDOREXPERIMENT=1
+#golang setting for mac
+if [[ `uname` == 'Linux' ]]; then
+	if [ -d "$HOME/go" ]; then
+		export GOPATH=$HOME/go
+		export GOBIN=$GOPATH/bin
+		export PATH=$PATH:$GOBIN:/usr/local/go/bin
+	fi
+elif [[ `uname` == 'MINGW'* ]]; then
+	browser="start"
+elif [[ `uname` == 'Darwin' ]]; then
+	if [ -d "$HOME/go" ]; then
+		export GOPATH=$HOME/go
+		export GOBIN=$GOPATH/bin
+		export PATH=$PATH:$GOBIN
+	fi
 fi
+
 
 go() {
 	if [[ $1 == 'to' ]]; then
