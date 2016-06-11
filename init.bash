@@ -81,7 +81,7 @@ alias baidu="$browser https://www.baidu.com"
 alias conference_room="$browser http://www.goyang.go.kr/kr/facilities/main.do"
 alias optimizilla="$browser http://optimizilla.com/ko/"
 alias sheepit="java -jar sheepit-client-3.227.2399.jar"
-alias renderfarm="$browser http://www.sheepit-renderfarm.com"
+alias renderfarm="$browser http://v5.sheepit-renderfarm.com"
 
 alias ff="find . -name $1"
 #alias vim=tor #It is very special option.
