@@ -1,14 +1,10 @@
 
-# bash setting.
+# Bash setting.
 ```
 cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 ```
 
-# publish site.
-- vimeo : http://vimeo.com/channels/lazypic
-- soundcloud : https://soundcloud.com/groups/lazypic
-
-# recommand install. 
+# Recommand install. 
 - golang : https://golang.org/dl/
 - gitbash : https://git-for-windows.github.io
 - sift : ```go get github.com/svent/sift```
