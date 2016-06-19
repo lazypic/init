@@ -21,6 +21,9 @@ elif [[ `uname` == 'Darwin' ]]; then
 		export GOBIN=$GOPATH/bin
 		export PATH=$PATH:$GOBIN
 	fi
+	if [ -d "$HOME/natronset" ]; then
+		export NATRON_PLUGIN_PATH=~/natronset
+	fi
 	export RMANTREE=/Applications/Pixar/RenderManProServer-20.9
 	export PATH=$PATH:$RMANTREE/bin
 fi
