@@ -24,11 +24,13 @@ elif [[ `uname` == 'Darwin' ]]; then
 	if [ -d "$HOME/natronset" ]; then
 		export NATRON_PLUGIN_PATH=~/natronset
 	fi
-	if [ -f "/Applications/Natron.app/Contents/MacOS/Natron" ]; then
+	if [ -d "/Applications/Natron.app/Contents/MacOS/Natron" ]; then
 		alias natron=/Applications/Natron.app/Contents/MacOS/Natron
 	fi
-	export RMANTREE=/Applications/Pixar/RenderManProServer-20.9
-	export PATH=$PATH:$RMANTREE/bin
+	if [ -d "/Applications/Pixar/RenderManProServer-20.9" ]; then
+		export RMANTREE=/Applications/Pixar/RenderManProServer-20.9
+		export PATH=$PATH:$RMANTREE/bin
+	fi
 fi
 
 
