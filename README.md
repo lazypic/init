@@ -1,6 +1,6 @@
 # LAZYPIC init
 이 리포지터리는 lazypic 초기설정과 관련된 리포지터리입니다.
-lazypictures는 리눅스와 macOS만 사용합니다.
+lazypic은 데비안계열의 리눅스 또는 macOS를 권장합니다.
 
 ## Bash 설정
 아래줄을 드레그해서 터미널에서 실행합니다.
