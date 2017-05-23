@@ -24,7 +24,10 @@ cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
  > 검색(윈도우 키 + S 키) > '명령 프롬포트' 실행 > 'bash' 
 ```
 
-## 스토리지 마운트
+## 스토리지 셋팅
+작업중 오래된 하드가 날아가서 고민하는 와이프를 위해서 생각한 방법입니다.
+솔루션 : AWS S3 + goofys
+
 #### macOS
 goofys를 설치합니다.
 
