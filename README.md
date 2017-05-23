@@ -29,11 +29,11 @@ cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 솔루션 : AWS S3 + goofys
 
 #### macOS
-goofys를 설치합니다.
+brew를 먼저 설치후 goofys를 설치합니다.
 
 ```
-brew cask install osxfuse
-brew install goofys
+$ brew cask install osxfuse
+$ brew install goofys
 ```
 
 ~/.aws/credentials 파일에 AWS IAM에서 발급받은 키를 넣어줍니다.
