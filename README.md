@@ -39,7 +39,7 @@ aws_secret_access_key = MY-SECRET-KEY
 ```
 $ cd
 $ mkdir lazypic
-$ goofys lazypic lazypic
+$ goofys lazypic lazypic // $ goofys <bucket> <mountpoint>
 ```
 
 성공되었다면 df 명령을 이용해서 마운트를 확인합니다.
