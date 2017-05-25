@@ -58,3 +58,8 @@ Filesystem      Size   Used  Avail Capacity iused      ifree %iused  Mounted on
 lazypic        1.0Pi    0Bi  1.0Pi     0%       0 1000000000    0%   /Users/?????/lazypic
 ```
 ~/lazypic 폴더가 1페타 바이트를 사용할 수 있다고 뜨면 설정이 완료됩니다.
+
+unmount는 아래와 같다.
+```
+$ sudo unmount ~/lazypic
+```
