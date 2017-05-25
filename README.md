@@ -61,5 +61,5 @@ lazypic        1.0Pi    0Bi  1.0Pi     0%       0 1000000000    0%   /Users/????
 
 unmount는 아래와 같다.
 ```
-$ sudo unmount ~/lazypic
+$ sudo umount ~/lazypic
 ```
