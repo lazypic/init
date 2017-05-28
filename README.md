@@ -63,3 +63,6 @@ unmount는 아래와 같다.
 ```
 $ sudo umount ~/lazypic
 ```
+
+## 도메인
+- 사용하는 도메인등록 사이트 : https://www.namecheap.com
