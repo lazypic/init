@@ -10,11 +10,17 @@ git이 필요합니다.
 cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 ```
 
-## 추가적으로 설치하면 좋은것
-- golang : https://golang.org/dl/
-- gitbash : https://git-for-windows.github.io
-- tor : ```go get -u github.com/kybin/tor```
-- ripgrep : https://github.com/BurntSushi/ripgrep/releases
+## 추천 패키지
+#### linux
+#### macOS
+brew를 이용해서 자주 사용하는 패키지를 설치합니다.
+```
+$ brew install ripgrep //https://github.com/BurntSushi/ripgrep/releases
+$ brew install guetzli
+$ brew install pandoc
+$ brew install mplayer
+$ brew install mpv
+```
 
 ## 윈도우즈에서 Bash 사용법
 ```
