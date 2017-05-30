@@ -5,7 +5,7 @@ echo " renderfarm : sheep it renderfarm"
 echo "   homepage : open homepage"
 echo "     github : open github"
 echo "googledrive : open googledrive"
-echo "optimizilla : image opimization"
+echo "    guetzli : image opimization"
 echo "     update : update setting"
 echo "================================="
 
