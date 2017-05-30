@@ -65,7 +65,7 @@ lazypic        1.0Pi    0Bi  1.0Pi     0%       0 1000000000    0%   /Users/????
 ```
 ~/lazypic 폴더가 1페타 바이트를 사용할 수 있다고 뜨면 설정이 완료됩니다.
 
-unmount는 아래와 같다.
+unmount가 필요하다면 아래처럼 명령어를 입력해주세요.
 ```
 $ sudo umount ~/lazypic
 ```
