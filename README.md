@@ -16,13 +16,13 @@ cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 brew를 이용해서 자주 사용하는 패키지를 설치합니다.
 ```
 $ brew install ripgrep //https://github.com/BurntSushi/ripgrep/releases
-$ brew install guetzli
+$ brew install guetzli // 이미지 최적화
 $ brew install pandoc
 $ brew install mplayer
 $ brew install mpv
 ```
 
-## 윈도우즈에서 Bash 사용법
+#### 윈도우즈에서 Bash 사용법
 ```
  설정 > 업데이트 및 복구 > 개발자용
  > 개발자 모두 활성화 > 시스템 재시작 > 검색(윈도우 키 + S 키)
@@ -31,16 +31,10 @@ $ brew install mpv
  > 검색(윈도우 키 + S 키) > '명령 프롬포트' 실행 > 'bash' 
 ```
 
-## 스토리지 셋팅
-작업중 오래된 하드가 날아가서 고민하는 와이프를 위해서 생각한 방법입니다.
-솔루션 : AWS S3 + goofys
-
-#### macOS
-brew를 먼저 설치후 goofys를 설치합니다.
-
+#### macOS & AWS
+- aws 제어를 위해 awless를 설치합니다.
 ```
-$ brew cask install osxfuse
-$ brew install goofys
+go get -u github.com/wallix/awless
 ```
 
 ~/.aws/credentials 파일에 AWS IAM에서 발급받은 키를 넣어줍니다.
@@ -50,25 +44,5 @@ aws_access_key_id = AKID1234567890
 aws_secret_access_key = MY-SECRET-KEY
 ```
 
-홈디렉토리에 lazypic 폴더를 만들고 마운트합니다.
-```
-$ cd
-$ mkdir lazypic
-$ goofys lazypic lazypic // $ goofys <bucket> <mountpoint>
-```
-
-성공되었다면 df 명령을 이용해서 마운트를 확인합니다.
-
-```
-Filesystem      Size   Used  Avail Capacity iused      ifree %iused  Mounted on
-lazypic        1.0Pi    0Bi  1.0Pi     0%       0 1000000000    0%   /Users/?????/lazypic
-```
-~/lazypic 폴더가 1페타 바이트를 사용할 수 있다고 뜨면 설정이 완료됩니다.
-
-unmount가 필요하다면 아래처럼 명령어를 입력해주세요.
-```
-$ sudo umount ~/lazypic
-```
-
-## 도메인
+#### 도메인
 - 사용하는 도메인등록 사이트 : https://www.namecheap.com
