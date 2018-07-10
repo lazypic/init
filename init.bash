@@ -64,6 +64,9 @@ g() {
 	$browser "http://www.google.com/search?q=$*";
 }
 
+# AWS
+export AWS_REGION=ap-northeast-2
+
 #other connect url
 alias wacom="$browser http://www.wacom.com/en-us/support/intuos-pro-support-detail"
 alias cloudb="$browser http://cloud.blender.org"
