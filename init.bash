@@ -1,7 +1,7 @@
 #load help
 source ~/init/help.bash
 
-#update cmd for artist
+#update cmd for lazypic users
 if [ -d "$HOME/init" ]; then
 	alias update="cd ~/init && git pull && cd \$OLDPWD"
 fi
