@@ -21,6 +21,7 @@ $ brew install guetzli // image optimization
 $ brew install pandoc
 $ brew install mplayer
 $ brew install mpv
+$ brew install potrace // bitmap to vector
 ```
 
 #### macOS & AWS
