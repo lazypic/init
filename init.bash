@@ -65,7 +65,7 @@ g() {
 }
 
 # AWS
-export AWS_REGION=ap-northeast-2
+export AWS_DEFAULT_REGION=ap-northeast-2
 
 #other connect url
 alias wacom="$browser http://www.wacom.com/en-us/support/intuos-pro-support-detail"
@@ -74,6 +74,7 @@ alias vimeo="$browser https://vimeo.com/channels/lazypic"
 alias youtube="$browser http://www.youtube.com"
 alias soundcloud="$browser https://soundcloud.com/groups/lazypic"
 alias gmail="$browser http://www.gmail.com"
+alias mail="$browser https://lazypic.awsapps.com/mail"
 alias github="$browser http://www.github.com/lazypic"
 alias bugs="$browser https://music.bugs.co.kr"
 alias bitbucket="$browser http://www.bitbucket.org"
