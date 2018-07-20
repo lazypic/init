@@ -40,6 +40,12 @@ aws_access_key_id = AKID1234567890
 aws_secret_access_key = MY-SECRET-KEY
 ```
 
+~/.aws/config 에 `Seoul Region`을 기본으로 설정합니다.
+```
+[default]
+region = ap-northeast-2
+```
+
 #### Infra
 - DNS 서비스 : https://www.namecheap.com
 - Mail 포워딩 : https://www.mailgun.com
