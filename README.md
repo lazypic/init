@@ -45,7 +45,7 @@ aws_secret_access_key = MY-SECRET-KEY
 region = ap-northeast-2
 ```
 
-#### Infra
+## Infra 정보
 - DNS 서비스 : https://www.namecheap.com
 - Mail 포워딩 : https://www.mailgun.com
 - AWS : https://console.aws.amazon.com
