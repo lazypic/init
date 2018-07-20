@@ -10,10 +10,13 @@ git이 필요합니다.
 cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 ```
 
-## 추천 패키지
+## macOS 패키지 설정
+- brew를 설치합니다. 터미널에 붙혀넣어주세요.
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
-#### macOS
-brew를 이용해서 자주 사용하는 패키지를 설치합니다.
+- brew를 이용해서 자주 사용하는 패키지를 설치합니다.
 ```
 $ brew tap wallix/awless; brew install awless // aws managing tool
 $ brew install ripgrep // grep utility
@@ -27,11 +30,7 @@ $ brew install imagemagick
 $ brew install potrace // bitmap to vector
 ```
 
-#### macOS & AWS
-- aws 제어를 위해 awless를 설치합니다.
-```
-go get -u github.com/wallix/awless
-```
+## AWS 셋팅
 
 ~/.aws/credentials 파일에 AWS IAM에서 발급받은 키를 넣어줍니다.
 ```
