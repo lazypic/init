@@ -4,12 +4,13 @@ lazypic은 macOS를 권장합니다.
 lazypic은 무선인터넷 환경을 권장합니다.
 
 ## Bash 설정
-- 아래줄을 드레그해서 터미널에서 실행합니다. git이 필요합니다.
+- lazypic은 macOS 터미널환경에서 프로그램을 실행, 업무를 진행합니다.
+- macOS 터미널은 bash shell을 사용하며, 아래줄을 드레그해서 터미널에서 실행합니다. 이 작업에는 git 설치되어 있어야 합니다.
 ```
 cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 ```
 
-- 만약 git이 설치되어있지 않다면, 아래 명령어를 터미널에서 실행해주세요.
+- 만약 git이 설치되어있지 않다면, 아래 명령어를 먼저 터미널에서 실행해주세요.
 ```
 $ xcode-select --install
 ```
