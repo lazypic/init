@@ -18,6 +18,7 @@ brew를 이용해서 자주 사용하는 패키지를 설치합니다.
 $ brew tap wallix/awless; brew install awless // aws managing tool
 $ brew install ripgrep // grep utility
 $ brew install guetzli // image optimization
+$ brew install caskformula/caskformula/inkscape // vector editor
 $ brew install pandoc
 $ brew install mplayer
 $ brew install mpv
