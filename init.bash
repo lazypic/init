@@ -97,5 +97,5 @@ if [ -f $krita ]; then
 fi
 
 # deliverery food
-alias mc="https://www.mcdelivery.co.kr/m/kr/jsp-mobile/sys/userLogin.jsp"
+alias mc="$browser https://www.mcdelivery.co.kr/m/kr/jsp-mobile/sys/userLogin.jsp"
 alias 차이홍="echo 031-916-8867" # Our favorite Chinese restaurant
