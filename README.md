@@ -40,5 +40,7 @@ aws_access_key_id = AKID1234567890
 aws_secret_access_key = MY-SECRET-KEY
 ```
 
-#### 도메인
-- 사용하는 도메인등록 사이트 : https://www.namecheap.com
+#### Infra
+- DNS 서비스 : https://www.namecheap.com
+- Mail 포워딩 : https://www.mailgun.com
+- AWS : https://console.aws.amazon.com
