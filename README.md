@@ -1,16 +1,21 @@
 # LAZYPIC init
-이 리포지터리는 lazypic 초기설정과 관련된 리포지터리입니다.
-
+이 리포지터리는 lazypic 설정 리포지터리입니다.
 lazypic은 macOS를 권장합니다.
+lazypic은 무선인터넷 환경을 권장합니다.
 
 ## Bash 설정
-아래줄을 드레그해서 터미널에서 실행합니다.
-git이 필요합니다.
+- 아래줄을 드레그해서 터미널에서 실행합니다. git이 필요합니다.
 ```
 cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 ```
 
-## macOS 패키지 설정
+- 만약 git이 설치되어있지 않다면, 아래 명령어를 터미널에서 실행해주세요.
+```
+$ xcode-select --install
+```
+
+## Homebrew 셋팅
+- lazypic은 macOS에서 패키지 매니저로 homebrew를 사용합니다.
 - brew를 설치합니다. 터미널에 붙혀넣어주세요.
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
