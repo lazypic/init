@@ -12,7 +12,7 @@ cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 
 ## 추천 패키지
 
-#### macOS
+#### macOS cmd tools.
 brew를 이용해서 자주 사용하는 패키지를 설치합니다.
 ```
 $ brew tap wallix/awless; brew install awless // aws managing tool
@@ -26,6 +26,9 @@ $ brew install ffmpeg
 $ brew install imagemagick
 $ brew install potrace // bitmap to vector
 ```
+
+#### macOS gui tools.
+- potraceGUI : http://www.hi-ho.ne.jp/sato-akira/dragpotrace/
 
 #### macOS & AWS
 - aws 제어를 위해 awless를 설치합니다.
