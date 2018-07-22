@@ -67,6 +67,10 @@ g() {
 # AWS
 export AWS_DEFAULT_REGION=ap-northeast-2
 
+# Mailgun
+export MG_DOMAIN=lazypic.org
+export MG_URL="https://api.mailgun.net/v3"
+
 #other connect url
 alias wacom="$browser http://www.wacom.com/en-us/support/intuos-pro-support-detail"
 alias cloudb="$browser http://cloud.blender.org"
