@@ -1,19 +1,29 @@
 # LAZYPIC init
-이 리포지터리는 lazypic 초기설정과 관련된 리포지터리입니다.
-
+이 리포지터리는 lazypic 설정 리포지터리입니다.
 lazypic은 macOS를 권장합니다.
+lazypic은 무선인터넷 환경을 권장합니다.
 
 ## Bash 설정
-아래줄을 드레그해서 터미널에서 실행합니다.
-git이 필요합니다.
+- lazypic은 macOS 터미널환경에서 프로그램을 실행, 업무를 진행합니다.
+- macOS 터미널은 bash shell을 사용하며, 아래줄을 드레그해서 터미널에서 실행합니다. 이 작업에는 git 설치되어 있어야 합니다.
 ```
 cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
 ```
 
-## 추천 패키지
+- 만약 git이 설치되어있지 않다면, 아래 명령어를 먼저 터미널에서 실행해주세요.
+```
+$ xcode-select --install
+```
 
-#### macOS cmd tools.
-brew를 이용해서 자주 사용하는 패키지를 설치합니다.
+## Homebrew 셋팅
+- lazypic은 macOS에서 패키지 매니저로 homebrew를 사용합니다.
+- brew를 설치합니다. 터미널에 붙혀넣어주세요.
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## macOS cmd tools.
+- brew를 이용해서 자주 사용하는 패키지를 설치합니다.
 ```
 $ brew tap wallix/awless; brew install awless // aws managing tool
 $ brew install ripgrep // grep utility
@@ -27,21 +37,28 @@ $ brew install imagemagick
 $ brew install potrace // bitmap to vector
 ```
 
-#### macOS gui tools.
+## macOS gui tools.
 - potraceGUI : http://www.hi-ho.ne.jp/sato-akira/dragpotrace/
 
-#### macOS & AWS
-- aws 제어를 위해 awless를 설치합니다.
-```
-go get -u github.com/wallix/awless
-```
+## AWS 셋팅
+- lazypic은 인프라로 AWS를 사용합니다.
 
-~/.aws/credentials 파일에 AWS IAM에서 발급받은 키를 넣어줍니다.
+- 각 서버자원의 접근을 위해서 AWS IAM에서 발급받은 키정보를 이용해서 credentials 파일을 생성합니다.
+- ~/.aws/credentials 파일내용은 아래와 같습니다.
 ```
 [default]
 aws_access_key_id = AKID1234567890
 aws_secret_access_key = MY-SECRET-KEY
 ```
 
-#### 도메인
-- 사용하는 도메인등록 사이트 : https://www.namecheap.com
+- lazypic은 `Seoul Region`을 기본으로 사용합니다.
+~/.aws/config 파일에 `Seoul Region`을 기본으로 설정해줍니다.
+```
+[default]
+region = ap-northeast-2
+```
+
+## Infra 정보
+- DNS 서비스 : https://www.namecheap.com
+- Mail 포워딩 : https://www.mailgun.com
+- AWS : https://console.aws.amazon.com
