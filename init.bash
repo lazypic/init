@@ -100,6 +100,6 @@ if [ -f $krita ]; then
 	alias krita=$krita
 fi
 
-# deliverery food
+# Our facorite deliverery food
 alias mc="$browser https://www.mcdelivery.co.kr/kr/home.html"
 alias 차이홍="echo 031-916-8867" # Our favorite Chinese restaurant
