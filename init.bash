@@ -90,9 +90,9 @@ alias optimizilla="$browser http://optimizilla.com/ko/"
 alias sheepit="java -jar ~/init/sheepit/sheepit-client-3.227.2399.jar"
 alias renderfarm="$browser http://www.sheepit-renderfarm.com"
 alias weather="curl wttr.in/seoul"
-alias jukedeck="https://www.jukedeck.com"
-alias flickr="https://www.flickr.com/photos/161844533@N02/"
-alias financialstatements="https://docs.google.com/spreadsheets/d/1iwuiImg9T-V_05utVck3nrowu2Q0Nlrn3XiWz6Mgf84/edit#gid=0"
+alias jukedeck="$browser https://www.jukedeck.com"
+alias flickr="$browser https://www.flickr.com/photos/161844533@N02/"
+alias financialstatements="$browser https://docs.google.com/spreadsheets/d/1iwuiImg9T-V_05utVck3nrowu2Q0Nlrn3XiWz6Mgf84/edit#gid=0"
 
 # Software
 krita="/Applications/krita.app/Contents/MacOS/krita"
