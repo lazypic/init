@@ -1,10 +1,11 @@
 # LAZYPIC init
-이 리포지터리는 lazypic 설정 리포지터리입니다.
-lazypic은 macOS를 권장합니다.
-lazypic은 무선인터넷 환경을 권장합니다.
+- 이 리포지터리는 Lazypic 설정 리포지터리입니다.
+- Lazypic은 macOS를 사용합니다.
+- Lazypic은 무선인터넷 환경을 권장합니다.
+- Lazypic은 국가 및 지역에 종속되도록 셋팅하지 않습니다.
 
 ## Bash 설정
-- lazypic은 macOS 터미널환경에서 프로그램을 실행, 업무를 진행합니다.
+- Lazypic은 macOS 터미널환경에서 프로그램을 실행, 업무를 진행합니다.
 - macOS 터미널은 bash shell을 사용하며, 아래줄을 드레그해서 터미널에서 실행합니다. 이 작업에는 git 설치되어 있어야 합니다.
 ```
 cd ~ && git clone https://github.com/lazypic/init.git && cd init && sh setup.sh
@@ -61,5 +62,5 @@ region = ap-northeast-2
 
 ## Infra 정보
 - DNS 서비스 : https://www.namecheap.com
-- Mail 포워딩 : https://www.mailgun.com
 - AWS : https://console.aws.amazon.com
+- Mail 포워딩 : https://www.mailgun.com
