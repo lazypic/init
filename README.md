@@ -17,7 +17,7 @@ $ xcode-select --install
 ```
 
 ## Homebrew 셋팅
-- lazypic은 macOS에서 패키지 매니저로 homebrew를 사용합니다.
+- Lazypic은 macOS에서 패키지 매니저로 homebrew를 사용합니다.
 - brew를 설치합니다. 터미널에 붙혀넣어주세요.
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -42,8 +42,8 @@ $ brew install potrace // bitmap to vector
 - potraceGUI : http://www.hi-ho.ne.jp/sato-akira/dragpotrace/
 
 ## AWS 셋팅
-- lazypic은 인프라로 AWS를 사용합니다.
-- 키 발급은 lazypic 구성원만 관리자를 통해서 발급받을 수 있습니다.
+- Lazypic은 인프라로 AWS를 사용합니다.
+- 키 발급은 Lazypic 구성원만 관리자를 통해서 발급받을 수 있습니다.
 - 문의 : admin@lazypic.org
 - Cloud 자원의 접근을 위해 AWS IAM에서 발급받은 키정보를 이용해서 credentials 파일을 생성합니다.
 - ~/.aws/credentials 파일내용은 아래와 같습니다.
@@ -53,7 +53,7 @@ aws_access_key_id = AKID1234567890
 aws_secret_access_key = MY-SECRET-KEY
 ```
 
-- lazypic은 `Seoul Region`을 기본으로 사용합니다.
+- Lazypic은 `Seoul Region`을 기본으로 사용합니다.
 ~/.aws/config 파일에 `Seoul Region`을 기본으로 설정합니다.
 ```
 [default]
