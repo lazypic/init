@@ -44,6 +44,7 @@ $ brew install potrace // bitmap to vector
 - lazypic은 인프라로 AWS를 사용합니다.
 
 - 각 서버자원의 접근을 위해서 AWS IAM에서 발급받은 키정보를 이용해서 credentials 파일을 생성합니다.
+- 키 발급은 lazypic 관리자에게 문의해주세요. admin@lazypic.org
 - ~/.aws/credentials 파일내용은 아래와 같습니다.
 ```
 [default]
