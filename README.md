@@ -42,9 +42,9 @@ $ brew install potrace // bitmap to vector
 
 ## AWS 셋팅
 - lazypic은 인프라로 AWS를 사용합니다.
-
-- 각 서버자원의 접근을 위해서 AWS IAM에서 발급받은 키정보를 이용해서 credentials 파일을 생성합니다.
-- 키 발급은 lazypic 관리자에게 문의해주세요. admin@lazypic.org
+- 키 발급은 lazypic 구성원만 관리자를 통해서 발급받을 수 있습니다.
+- 문의 : admin@lazypic.org
+- Cloud 자원의 접근을 위해 AWS IAM에서 발급받은 키정보를 이용해서 credentials 파일을 생성합니다.
 - ~/.aws/credentials 파일내용은 아래와 같습니다.
 ```
 [default]
@@ -53,7 +53,7 @@ aws_secret_access_key = MY-SECRET-KEY
 ```
 
 - lazypic은 `Seoul Region`을 기본으로 사용합니다.
-~/.aws/config 파일에 `Seoul Region`을 기본으로 설정해줍니다.
+~/.aws/config 파일에 `Seoul Region`을 기본으로 설정합니다.
 ```
 [default]
 region = ap-northeast-2
