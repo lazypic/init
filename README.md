@@ -36,6 +36,7 @@ $ brew install mpv
 $ brew install ffmpeg
 $ brew install imagemagick
 $ brew install potrace // bitmap to vector
+$ brew install exiftool // edit image metadata
 ```
 
 ## macOS gui tools.
