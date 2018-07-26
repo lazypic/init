@@ -46,6 +46,8 @@ $ sh ~/init/install_brew_package.sh
 
 ## macOS gui tools.
 - potraceGUI : http://www.hi-ho.ne.jp/sato-akira/dragpotrace/
+- xquartz : https://www.xquartz.org/
+- inkscape : https://inkscape.org/en/release
 
 ## AWS 셋팅
 - Lazypic은 인프라로 AWS를 사용합니다.
