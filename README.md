@@ -67,6 +67,7 @@ aws_secret_access_key = MY-SECRET-KEY
 [default]
 region = ap-northeast-2
 ```
+- AWS 접속시 MFA를 사용한다면, [Google Authenticator](https://itunes.apple.com/kr/app/google-authenticator/id388497605?mt=8)를 핸드폰에 설치해주세요.
 
 ## Infra 정보
 - DNS 서비스 : https://www.namecheap.com
