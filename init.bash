@@ -27,10 +27,6 @@ elif [[ `uname` == 'Darwin' ]]; then
 	if [ -d "/Applications/Natron.app/Contents/MacOS/Natron" ]; then
 		alias natron=/Applications/Natron.app/Contents/MacOS/Natron
 	fi
-	if [ -d "/Applications/Pixar/RenderManProServer-20.9" ]; then
-		export RMANTREE=/Applications/Pixar/RenderManProServer-20.9
-		export PATH=$PATH:$RMANTREE/bin
-	fi
 fi
 
 
