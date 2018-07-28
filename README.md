@@ -28,6 +28,7 @@ $ xcode-select --install
 ```bash
 $ brew tap wallix/awless; brew install awless # aws managing tool
 $ brew install ripgrep # grep utility
+$ brew install wget
 $ brew install guetzli # image optimization
 $ brew install pandoc
 $ brew install mplayer
