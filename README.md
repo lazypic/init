@@ -36,6 +36,8 @@ $ brew install ffmpeg
 $ brew install imagemagick
 $ brew install potrace # bitmap to vector
 $ brew install exiftool # edit image metadata
+$ brew install ocio
+$ brew install openimageio #oiio
 ```
 
 - 위 리스트는 `install_brew_package.sh` 파일에도 선언되어있습니다.
