@@ -1,6 +1,6 @@
 # LAZYPIC init
 - 이 리포지터리는 Lazypic 설정 리포지터리입니다.
-- Lazypic은 macOS를 사용합니다.
+- Lazypic은 macOS를 사용합니다.(macOS와 공유하며 아이패드와 아이팬슬로 컨셉을 그리는건 굉장히 매력적입니다.)
 - Lazypic은 유무선 인터넷 환경을 권장합니다.
 - Lazypic은 국가 및 지역에 종속되도록 셋팅하지 않습니다.
 
