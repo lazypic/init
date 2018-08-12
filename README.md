@@ -40,6 +40,7 @@ $ brew install exiftool # edit image metadata
 $ brew install ocio
 $ brew install openimageio #oiio
 $ brew install media-info
+$ brew install hugo # gen static website
 ```
 
 - 위 리스트는 `install_brew_package.sh` 파일에도 선언되어있습니다.
