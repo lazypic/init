@@ -13,8 +13,6 @@ if [[ `uname` == 'Linux' ]]; then
 		export GOBIN=$GOPATH/bin
 		export PATH=$PATH:$GOBIN:/usr/local/go/bin
 	fi
-elif [[ `uname` == 'MINGW'* ]]; then
-	browser="start"
 elif [[ `uname` == 'Darwin' ]]; then
 	if [ -d "$HOME/go" ]; then
 		export GOPATH=$HOME/go
@@ -96,6 +94,11 @@ alias brunch="$browser https://brunch.co.kr/write"
 krita="/Applications/krita.app/Contents/MacOS/krita"
 if [ -f $krita ]; then
 	alias krita=$krita
+fi
+
+# 촬영관련 스크립트
+if [ -f ~/bmpcc/bmpcc.py ]; then
+	alias bmpcc="python ~/bmpcc/bmpcc.py"
 fi
 
 # Our facorite deliverery food
