@@ -12,3 +12,4 @@ brew install exiftool # edit image metadata
 brew install ocio
 brew install openimageio
 brew install media-info
+brew install hugo
