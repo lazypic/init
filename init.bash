@@ -59,7 +59,8 @@ g() {
 }
 
 # AWS
-export AWS_DEFAULT_REGION=ap-northeast-2
+export AWS_REGION=ap-northeast-2 # for CLI
+export AWS_DEFAULT_REGION=ap-northeast-2 # for SDK
 
 # Mailgun
 export MG_DOMAIN=lazypic.org
