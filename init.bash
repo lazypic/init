@@ -19,12 +19,6 @@ elif [[ `uname` == 'Darwin' ]]; then
 		export GOBIN=$GOPATH/bin
 		export PATH=$PATH:$GOBIN
 	fi
-	if [ -d "$HOME/natronset" ]; then
-		export NATRON_PLUGIN_PATH=~/natronset
-	fi
-	if [ -d "/Applications/Natron.app/Contents/MacOS/Natron" ]; then
-		alias natron=/Applications/Natron.app/Contents/MacOS/Natron
-	fi
 fi
 
 
@@ -91,10 +85,27 @@ alias financialstatements="$browser https://docs.google.com/spreadsheets/d/1iwui
 alias editblog="$browser https://www.blogger.com/blogger.g?rinli=1&pli=1&blogID=8229706624590863176#allposts"
 alias brunch="$browser https://brunch.co.kr/write"
 
-# Software
+# Software & app
 krita="/Applications/krita.app/Contents/MacOS/krita"
 if [ -f $krita ]; then
 	alias krita=$krita
+fi
+# blender
+blender="/Applications/Blender/blender.app/Contents/MacOS/blender"
+if [ -f $blender ] && [ -d ~/blender ] ; then
+	alias blender="$blender --python ~/blender/init.py"
+fi
+# blender dev
+blenderdev="/Applications/Blenderdev/blender.app/Contents/MacOS/blender"
+if [ -f $blenderdev ] && [ -d ~/blender ] ; then
+	alias blenderdev="$blenderdev --python ~/blender/init.py"
+fi
+# natron
+if [ -d "$HOME/natronset" ]; then
+	export NATRON_PLUGIN_PATH=~/natronset
+fi
+if [ -d "/Applications/Natron.app/Contents/MacOS/Natron" ]; then
+	alias natron=/Applications/Natron.app/Contents/MacOS/Natron
 fi
 
 # 촬영관련 스크립트
