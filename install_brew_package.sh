@@ -11,5 +11,6 @@ brew install potrace # bitmap to vector
 brew install exiftool # edit image metadata
 brew install ocio
 brew install openimageio
+brew install openexr
 brew install media-info
 brew install hugo
