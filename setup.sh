@@ -4,5 +4,5 @@ if [[ `uname` == 'Linux' ]]; then
 elif [[ `uname` == 'MINGW'* ]]; then
 	echo "source ~/init/init.bash" >> ~/.bashrc
 elif [[ `uname` == "Darwin" ]]; then
-	echo "source ~/init/init.bash" >> ~/.profile
+	echo "source ~/init/init.bash" >> ~/.bash_profile
 fi
