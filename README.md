@@ -42,6 +42,7 @@ $ brew install openimageio #oiio
 $ brew install openexr
 $ brew install media-info
 $ brew install hugo # gen static website
+$ brew cask install keycastr # show key for ppt or screencap
 ```
 
 - 위 리스트는 `install_brew_package.sh` 파일에도 선언되어있습니다.

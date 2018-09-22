@@ -21,7 +21,6 @@ elif [[ `uname` == 'Darwin' ]]; then
 	fi
 fi
 
-
 go() {
 	if [[ $1 == 'to' ]]; then
 		command cd $GOPATH/src/$2

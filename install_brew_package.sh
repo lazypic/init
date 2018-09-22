@@ -14,3 +14,4 @@ brew install openimageio
 brew install openexr
 brew install media-info
 brew install hugo
+brew cask install keycastr # show key for ppt
