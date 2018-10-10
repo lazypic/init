@@ -46,10 +46,10 @@ $ brew cask install keycastr # show key for ppt or screencap
 $ pip3 install blender-bam # Blender Asset Manager
 ```
 
-- 위 리스트는 `install_brew_package.sh` 파일에도 선언되어있습니다.
+- 위 리스트는 `install_tools.sh` 파일에도 선언되어있습니다.
 - 모두 설치하기를 원한다면 아래처럼 터미널에서 타이핑해주세요.
 ```bash
-$ sh ~/init/install_brew_package.sh
+$ sh ~/init/install_tools.sh
 ```
 
 ## OCIO Configs Setting
