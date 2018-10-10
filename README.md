@@ -52,6 +52,12 @@ $ pip3 install blender-bam # Blender Asset Manager
 $ sh ~/init/install_brew_package.sh
 ```
 
+## OCIO Configs Setting
+```
+cd ~
+git clone https://github.com/imageworks/OpenColorIO-Configs
+```
+
 ## macOS gui tools.
 - potraceGUI : http://www.hi-ho.ne.jp/sato-akira/dragpotrace/
 - xquartz : https://www.xquartz.org/
