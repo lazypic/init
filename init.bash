@@ -99,7 +99,7 @@ blenderdev="/Applications/Blenderdev/blender.app/Contents/MacOS/blender"
 if [ -f $blenderdev ] && [ -d ~/blender ] ; then
 	alias blenderdev="$blenderdev --python ~/blender/init.py"
 fi
-# natron
+# Natron
 if [ -d "$HOME/natronset" ]; then
 	export NATRON_PLUGIN_PATH=~/natronset
 fi
@@ -107,12 +107,17 @@ if [ -d "/Applications/Natron.app/Contents/MacOS/Natron" ]; then
 	alias natron=/Applications/Natron.app/Contents/MacOS/Natron
 fi
 
-# nuke
+# Nuke
 if [ -d "$HOME/nuke" ]; then
 	export NUKE_PATH=~/nuke
 fi
 if [ -d "/Applications/Nuke10.5v8" ]; then
 	alias nuke=/Applications/Nuke10.5v8/NukeX10.5v8.app/NukeX10.5v8
+fi
+
+# OpenColorIO / 3.2G
+if [ -d "$HOME/OpenColorIO-Configs/aces_1.0.3" ]; then
+	export OCIO=$HOME/OpenColorIO-Configs/aces_1.0.3/config.ocio
 fi
 
 
