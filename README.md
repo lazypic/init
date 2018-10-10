@@ -83,10 +83,8 @@ region = ap-northeast-2
 ```
 - 보안을 위해 AWS 멀티 팩터 인증(MFA)을 사용합니다. 핸드폰에 [Google Authenticator](https://itunes.apple.com/kr/app/google-authenticator/id388497605?mt=8)을 설치해주세요.
 
-## Infra 정보
+## Reference
 - DNS 서비스 : https://www.namecheap.com
 - AWS : https://console.aws.amazon.com
 - Mail 포워딩 : https://www.mailgun.com
-
-## Reference
 - bam : https://docs.blender.org/manual/en/dev/pipeline/bam.html
