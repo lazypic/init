@@ -107,6 +107,15 @@ if [ -d "/Applications/Natron.app/Contents/MacOS/Natron" ]; then
 	alias natron=/Applications/Natron.app/Contents/MacOS/Natron
 fi
 
+# nuke
+if [ -d "$HOME/nuke" ]; then
+	export NUKE_PATH=~/nuke
+fi
+if [ -d "/Applications/Nuke10.5v8" ]; then
+	alias nuke=/Applications/Nuke10.5v8/NukeX10.5v8.app/NukeX10.5v8
+fi
+
+
 # 촬영관련 스크립트
 if [ -f ~/bmpcc/bmpcc.py ]; then
 	alias bmpcc="python ~/bmpcc/bmpcc.py"
