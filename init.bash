@@ -102,10 +102,10 @@ if [ -f $blenderdev ] && [ -d ~/blender ] ; then
 	alias blenderdev="$blenderdev --python ~/blender/init.py"
 fi
 # Natron
-if [ -d "$HOME/natronset" ]; then
-	export NATRON_PLUGIN_PATH=~/natronset
+if [ -d "$HOME/natron" ]; then
+	export NATRON_PLUGIN_PATH=~/natron
 fi
-if [ -d "/Applications/Natron.app/Contents/MacOS/Natron" ]; then
+if [ -f "/Applications/Natron.app/Contents/MacOS/Natron" ]; then
 	alias natron=/Applications/Natron.app/Contents/MacOS/Natron
 fi
 
