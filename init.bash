@@ -84,6 +84,7 @@ alias financialstatements="$browser https://docs.google.com/spreadsheets/d/1iwui
 alias editblog="$browser https://www.blogger.com/blogger.g?rinli=1&pli=1&blogID=8229706624590863176#allposts"
 alias brunch="$browser https://brunch.co.kr/write"
 alias slideshare="$browser https://www.slideshare.net"
+alias wiki="$browser https://github.com/lazypic/blender/wiki"
 
 
 # Software & app
