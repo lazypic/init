@@ -60,7 +60,7 @@ $ sh ~/init/install_tools.sh
 cd ~
 git clone https://github.com/imageworks/OpenColorIO-Configs
 ```
-![set_aces](https://user-images.githubusercontent.com/1149996/46813718-32812f80-cdb2-11e8-8f8c-05385670596f.png)
+![set_aces](https://user-images.githubusercontent.com/1149996/46817898-eb4b6c80-cdba-11e8-85fb-0508d36249a5.png)
 
 ## macOS gui tools.
 - potraceGUI : http://www.hi-ho.ne.jp/sato-akira/dragpotrace/
