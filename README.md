@@ -53,7 +53,7 @@ $ sh ~/init/install_tools.sh
 ```
 
 ## OCIO Configs Setting
-- 아래 명령어를 이용해서 OpenColorIO-Configs를 다운로드하면 Blender 실행시 ACES 모드로 실행됩니다.
+- 아래 명령어를 이용해서 OpenColorIO-Configs를 다운로드하면 Tool 실행시 ACES 모드로 실행됩니다.
 - 컬러메니징 설정은 스크린샷을 추가했습니다.
 ```
 cd ~
