@@ -12,6 +12,7 @@ brew install exiftool # edit image metadata
 brew install ocio
 brew install openimageio
 brew install openexr
+brew install openvdb
 brew install media-info
 brew install hugo
 brew cask install keycastr # show key for ppt

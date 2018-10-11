@@ -40,6 +40,7 @@ $ brew install exiftool # edit image metadata
 $ brew install ocio
 $ brew install openimageio #oiio
 $ brew install openexr
+$ brew install openvdb
 $ brew install media-info
 $ brew install hugo # gen static website
 $ brew cask install keycastr # show key for ppt or screencap
