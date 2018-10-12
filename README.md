@@ -44,6 +44,7 @@ $ brew install openvdb
 $ brew install media-info
 $ brew install hugo # gen static website
 $ brew cask install keycastr # show key for ppt or screencap
+$ brew install python3
 $ pip3 install blender-bam # Blender Asset Manager
 ```
 
