@@ -85,6 +85,7 @@ alias editblog="$browser https://www.blogger.com/blogger.g?rinli=1&pli=1&blogID=
 alias brunch="$browser https://brunch.co.kr/write"
 alias slideshare="$browser https://www.slideshare.net"
 alias wiki="$browser https://github.com/lazypic/blender/wiki"
+alias centos="ssh woong@192.168.219.106"
 
 
 # Software & app
