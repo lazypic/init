@@ -16,4 +16,6 @@ brew install openvdb
 brew install media-info
 brew install hugo
 brew cask install keycastr # show key for ppt
+brew install python3
 pip3 install blender-bam 
+brew install tesseract # get string from image

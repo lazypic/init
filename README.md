@@ -44,7 +44,9 @@ $ brew install openvdb
 $ brew install media-info
 $ brew install hugo # gen static website
 $ brew cask install keycastr # show key for ppt or screencap
+$ brew install python3
 $ pip3 install blender-bam # Blender Asset Manager
+$ brew install tesseract # get text from image
 ```
 
 - 위 리스트는 `install_tools.sh` 파일에도 선언되어있습니다.
