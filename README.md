@@ -96,5 +96,5 @@ region = ap-northeast-2
 - bam : https://docs.blender.org/manual/en/dev/pipeline/bam.html
 - https://github.com/tangent-animation/blender278
 
-## 채용
+## 인간관계
 - MBTI테스트 : https://www.16personalities.com/ko
