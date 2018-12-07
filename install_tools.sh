@@ -18,4 +18,6 @@ brew install hugo
 brew cask install keycastr # show key for ppt
 brew install python3
 pip3 install blender-bam 
+pip install pyopengl
+pip install pyside2
 brew install tesseract # get string from image
