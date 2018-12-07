@@ -20,4 +20,5 @@ brew install python3
 pip3 install blender-bam 
 pip install pyopengl
 pip install pyside2
+pip install numpy
 brew install tesseract # get string from image
