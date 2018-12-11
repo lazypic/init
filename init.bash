@@ -58,6 +58,8 @@ export AWS_DEFAULT_REGION=ap-northeast-2 # for SDK
 # Mailgun
 export MG_DOMAIN=lazypic.org
 export MG_URL="https://api.mailgun.net/v3"
+alias mailgun="$browser http://mailgun.com"
+
 
 #other connect url
 alias wacom="$browser http://www.wacom.com/en-us/support/intuos-pro-support-detail"
