@@ -118,10 +118,13 @@ fi
 
 # Nuke
 if [ -d "$HOME/nuke" ]; then
-	export NUKE_PATH=~/nuke
+	export NUKE_PATH=$HOME/nuke
 fi
-if [ -d "/Applications/Nuke10.5v8" ]; then
-	alias nuke=/Applications/Nuke10.5v8/NukeX10.5v8.app/NukeX10.5v8
+if [ -d "$HOME/nuke/font" ]; then
+	export NUKE_FONT_PATH=$HOME/nuke/font
+fi
+if [ -d "/Applications/Nuke11.1v4" ]; then
+	alias nuke=/Applications/Nuke11.1v4/NukeX11.1v4.app/NukeX11.1v4
 fi
 
 # OpenColorIO / 3.2G
