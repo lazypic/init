@@ -55,3 +55,6 @@ brew install ffmpeg --with-aom \
 --with-webp \
 --with-zeromq \
 --with-zimg
+
+# torrent
+go get github.com/anacrolix/torrent/cmd/torrent
