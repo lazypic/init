@@ -25,31 +25,7 @@ $ xcode-select --install
 
 ## macOS cmd tools.
 - brew를 이용해서 자주 사용하는 패키지를 설치합니다.
-```bash
-$ brew tap wallix/awless; brew install awless # aws managing tool
-$ brew install ripgrep # grep utility
-$ brew install wget
-$ brew install guetzli # image optimization
-$ brew install pandoc
-$ brew install mplayer
-$ brew install mpv
-$ brew install ffmpeg
-$ brew install imagemagick
-$ brew install potrace # bitmap to vector
-$ brew install exiftool # edit image metadata
-$ brew install ocio
-$ brew install openimageio #oiio
-$ brew install openexr
-$ brew install openvdb
-$ brew install media-info
-$ brew install hugo # gen static website
-$ brew cask install keycastr # show key for ppt or screencap
-$ brew install python3
-$ pip3 install blender-bam # Blender Asset Manager
-$ brew install tesseract # get text from image
-```
-
-- 위 리스트는 `install_tools.sh` 파일에도 선언되어있습니다.
+- `install_tools.sh` 파일에 선언되어있습니다.
 - 모두 설치하기를 원한다면 아래처럼 터미널에서 타이핑해주세요.
 ```bash
 $ sh ~/init/install_tools.sh
