@@ -55,6 +55,11 @@ g() {
 export AWS_REGION=ap-northeast-2 # for CLI
 export AWS_DEFAULT_REGION=ap-northeast-2 # for SDK
 
+# AWS 메뉴얼에서 python3.7을 권장함.
+if [ -d /Users/hanwoongkim/Library/Python/3.7/bin ]; then
+	export PATH=$PATH:/Users/hanwoongkim/Library/Python/3.7/bin
+fi
+
 # Mailgun
 export MG_DOMAIN=lazypic.org
 export MG_URL="https://api.mailgun.net/v3"
