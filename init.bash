@@ -6,28 +6,16 @@ if [ -d "$HOME/init" ]; then
 	alias update="cd ~/init && git pull && cd \$OLDPWD"
 fi
 
-#golang setting for mac
+#Go Setting
+export GO111MODULE=on
 if [[ `uname` == 'Linux' ]]; then
-	if [ -d "$HOME/go" ]; then
-		export GOPATH=$HOME/go
-		export GOBIN=$GOPATH/bin
-		export PATH=$PATH:$GOBIN:/usr/local/go/bin
-	fi
+	export GOBIN=$HOME/bin
+	export PATH=$PATH:$GOBIN:/usr/local/go/bin
 elif [[ `uname` == 'Darwin' ]]; then
-	if [ -d "$HOME/go" ]; then
-		export GOPATH=$HOME/go
-		export GOBIN=$GOPATH/bin
-		export PATH=$PATH:$GOBIN
-	fi
+	export GOBIN=$HOME/bin
+	export PATH=$PATH:$GOBIN
 fi
 
-go() {
-	if [[ $1 == 'to' ]]; then
-		command cd $GOPATH/src/$2
-	else
-		command go $*
-	fi
-}
 
 git() {
 	if [[ $@ == "log" ]]; then
