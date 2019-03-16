@@ -110,17 +110,21 @@ if [ -f "/Applications/Natron.app/Contents/MacOS/Natron" ]; then
 fi
 
 # Nuke
+NUKEVER="Nuke11.3v2"
+NUKEXVER="NukeX11.3v2"
 if [ -d "$HOME/nuke" ]; then
 	export NUKE_PATH=$HOME/nuke
 fi
 if [ -d "$HOME/nuke/font" ]; then
 	export NUKE_FONT_PATH=$HOME/nuke/font
 fi
-if [ -d "/Applications/Nuke11.1v4" ]; then
-	alias nuke=/Applications/Nuke11.1v4/NukeX11.1v4.app/NukeX11.1v4
+if [ -d "/Applications/$NUKEVER" ]; then
+	alias nukex="/Applications/$NUKEVER/$NUKEXVER.app/$NUKEXVER"
+	alias nukenc="/Applications/$NUKEVER/$NUKEVER.app/$NUKEXVER -nc"
+	alias nuke="/Applications/$NUKEVER/$NUKEVER.app/$NUKEXVER"
 fi
 
-# OpenColorIO / 3.2G
+# OpenColorIO / size 3.2G
 if [ -d "$HOME/OpenColorIO-Configs/aces_1.0.3" ]; then
 	export OCIO=$HOME/OpenColorIO-Configs/aces_1.0.3/config.ocio
 fi
