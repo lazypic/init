@@ -52,7 +52,7 @@ git clone https://github.com/imageworks/OpenColorIO-Configs
 - Cloud 자원의 접근을 위해 AWS IAM에서 발급받은 키정보를 이용해서 credentials 파일을 생성합니다.
 - ~/.aws/credentials 파일내용은 아래와 같습니다.
 ```
-[default]
+[lazypic]
 aws_access_key_id = AKID1234567890
 aws_secret_access_key = MY-SECRET-KEY
 ```
@@ -60,7 +60,7 @@ aws_secret_access_key = MY-SECRET-KEY
 - Lazypic은 `Seoul Region`을 기본으로 사용합니다.
 ~/.aws/config 파일에 `Seoul Region`을 기본으로 설정합니다.
 ```
-[default]
+[lazypic]
 region = ap-northeast-2
 ```
 - 보안을 위해 AWS 멀티 팩터 인증(MFA)을 사용합니다. 핸드폰에 [Google Authenticator](https://itunes.apple.com/kr/app/google-authenticator/id388497605?mt=8)을 설치해주세요.
