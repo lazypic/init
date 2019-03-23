@@ -15,6 +15,8 @@ brew install openvdb
 brew install media-info
 brew install hugo
 brew cask install keycastr # show key for ppt
+brew cask install osxfuse
+brew install s3fs
 brew install python3
 pip3 install blender-bam 
 pip install pyopengl
