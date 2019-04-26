@@ -48,6 +48,7 @@ git clone https://github.com/imageworks/OpenColorIO-Configs
 ## AWS 셋팅
 - Lazypic은 인프라로 AWS를 사용합니다.
 - 키 발급은 Lazypic 구성원만 관리자를 통해서 발급받을 수 있습니다.
+- 최소한의 권한만 부여된 키 발급을 받았다고 하더라도 구성원은 반드시 노트북 또는 컴퓨터에 패스워드를 걸어주세요.
 - 문의 : admin@lazypic.org
 - Cloud 자원의 접근을 위해 AWS IAM에서 발급받은 키정보를 이용해서 credentials 파일을 생성합니다.
 - ~/.aws/credentials 파일내용은 아래와 같습니다.
