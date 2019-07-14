@@ -134,3 +134,7 @@ fi
 # Our facorite deliverery food
 alias mc="$browser https://www.mcdelivery.co.kr/kr/home.html"
 alias 차이홍="echo 031-916-8867 && say 031-916-8867" # Our favorite Chinese restaurant
+
+# elo
+export SITE_ROOT=$HOME/.elo
+export SHOW_ROOT=$HOME/project
