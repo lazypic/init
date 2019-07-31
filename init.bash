@@ -45,8 +45,6 @@ if [ -d /Users/hanwoongkim/Library/Python/3.7/bin ]; then
 fi
 
 # Mailgun
-export MG_DOMAIN=lazypic.org
-export MG_URL="https://api.mailgun.net/v3"
 alias mailgun="$browser http://mailgun.com"
 
 
