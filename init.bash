@@ -87,8 +87,14 @@ krita="/Applications/krita.app/Contents/MacOS/krita"
 if [ -f $krita ]; then
 	alias krita=$krita
 fi
+
 # blender
-blender="/Applications/Blender/blender.app/Contents/MacOS/blender"
+if [[ "$OSTYPE" == "darwin"* ]]; then
+	blender="$HOME/app/blender/Blender.app/Contents/MacOS/blender"
+elif [[ "$OSTYPE" == "linux-gnu" ]]; then
+	blender="$HOME/app/blender/blender"
+fi
+
 if [ -f $blender ] && [ -d ~/blender ] ; then
 	alias blender="$blender --python ~/blender/init.py"
 fi
@@ -97,6 +103,7 @@ blenderdev="$HOME/app/blenderdev/blender.app/Contents/MacOS/blender"
 if [ -f $blenderdev ] && [ -d $HOME/blender ] ; then
 	alias blenderdev="$blenderdev --python $HOME/blender/init.py"
 fi
+
 # Natron
 if [ -d "$HOME/natron" ]; then
 	export NATRON_PLUGIN_PATH=~/natron
@@ -130,10 +137,6 @@ fi
 if [ -f ~/bmpcc/bmpcc.py ]; then
 	alias bmpcc="python ~/bmpcc/bmpcc.py"
 fi
-
-# Our facorite deliverery food
-alias mc="$browser https://www.mcdelivery.co.kr/kr/home.html"
-alias 차이홍="echo 031-916-8867 && say 031-916-8867" # Our favorite Chinese restaurant
 
 # elo
 export SITE_ROOT=$HOME/.elo
