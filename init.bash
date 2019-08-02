@@ -88,9 +88,9 @@ fi
 
 # blender
 if [[ "$OSTYPE" == "darwin"* ]]; then
-	blender="$HOME/app/blender/Blender.app/Contents/MacOS/blender"
+	blender="$HOME/app/blender2.8/Blender.app/Contents/MacOS/blender"
 elif [[ "$OSTYPE" == "linux-gnu" ]]; then
-	blender="$HOME/app/blender/blender"
+	blender="$HOME/app/blender2.8/blender"
 fi
 
 if [ -f $blender ] && [ -d ~/blender ] ; then
