@@ -75,3 +75,8 @@ region = ap-northeast-2
 
 ## 인간관계
 - MBTI테스트 : https://www.16personalities.com/ko
+
+## for Windows
+만약 윈도우즈를 테스트해야하는 상황에서는 Azure 클라우드를 사용한다.
+
+https://portal.azure.com/#home
