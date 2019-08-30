@@ -79,4 +79,5 @@ region = ap-northeast-2
 ## for Windows
 만약 윈도우즈를 테스트해야하는 상황에서는 Azure 클라우드를 사용한다.
 
-https://portal.azure.com/#home
+- app: https://apps.apple.com/kr/app/microsoft-remote-desktop-10/id1295203466?mt=12
+- portal: https://portal.azure.com/#home
