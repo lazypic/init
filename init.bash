@@ -39,8 +39,8 @@ g() {
 }
 
 # AWS 메뉴얼에서 python3.7을 권장함.
-if [ -d /Users/hanwoongkim/Library/Python/3.7/bin ]; then
-	export PATH=$PATH:/Users/hanwoongkim/Library/Python/3.7/bin
+if [ -d $HOME/Library/Python/3.7/bin ]; then
+	export PATH=$PATH:$HOME/Library/Python/3.7/bin
 fi
 
 # Mailgun
