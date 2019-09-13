@@ -7,7 +7,6 @@ if [ -d "$HOME/init" ]; then
 fi
 
 #Go Setting
-export GO111MODULE=on
 if [[ `uname` == 'Linux' ]]; then
 	export GOBIN=$HOME/bin
 	export PATH=$PATH:$GOBIN:/usr/local/go/bin
