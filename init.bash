@@ -85,24 +85,27 @@ if [ -f $krita ]; then
 	alias krita=$krita
 fi
 
-# blender
+# blender 경로설정
 if [[ "$OSTYPE" == "darwin"* ]]; then
 	blender="$HOME/app/blender2.8/Blender.app/Contents/MacOS/blender"
+	blender279="/Applications/Blender/blender.app/Contents/MacOS/blender"
+	blenderdev="$HOME/app/blenderdev/blender.app/Contents/MacOS/blender"
 elif [[ "$OSTYPE" == "linux-gnu" ]]; then
 	blender="$HOME/app/blender2.8/blender"
 fi
 
-if [ -f $blender ] && [ -d ~/blender ] ; then
-	alias blender="$blender --python ~/blender/init.py"
+# blender 실행
+if [ -f $blender ] && [ -d $HOME/blender ]; then
+	alias blender="$blender --python $HOME/blender/init.py"
 fi
 
-#blender 2.79
-alias blender279="/Applications/Blender/blender.app/Contents/MacOS/blender"
+# blender 2.79 실행
+if [ -f $blender279 ] && [ -d $HOME/blender ]; then
+	alias blender279="$blender279 --python $HOME/blender/init.py"
+fi
 
-
-# blender dev
-blenderdev="$HOME/app/blenderdev/blender.app/Contents/MacOS/blender"
-if [ -f $blenderdev ] && [ -d $HOME/blender ] ; then
+# blender dev 실행
+if [ -f $blenderdev ] && [ -d $HOME/blender ]; then
 	alias blenderdev="$blenderdev --python $HOME/blender/init.py"
 fi
 
