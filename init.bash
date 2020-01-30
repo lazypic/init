@@ -95,6 +95,11 @@ fi
 if [ -f $blender ] && [ -d ~/blender ] ; then
 	alias blender="$blender --python ~/blender/init.py"
 fi
+
+#blender 2.79
+alias blender279="/Applications/Blender/blender.app/Contents/MacOS/blender"
+
+
 # blender dev
 blenderdev="$HOME/app/blenderdev/blender.app/Contents/MacOS/blender"
 if [ -f $blenderdev ] && [ -d $HOME/blender ] ; then
