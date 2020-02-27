@@ -87,26 +87,15 @@ fi
 
 # blender 경로설정
 if [[ "$OSTYPE" == "darwin"* ]]; then
-	blender="$HOME/app/blender2.8/Blender.app/Contents/MacOS/blender"
-	blender279="/Applications/Blender/blender.app/Contents/MacOS/blender"
-	blenderdev="$HOME/app/blenderdev/blender.app/Contents/MacOS/blender"
+	alias blender279="$HOME/app/blender2.79/blender.app/Contents/MacOS/blender --python $HOME/blender/init.py" #tqcs
+	alias blender281="$HOME/app/blender2.81/Blender.app/Contents/MacOS/blender --python $HOME/blender/init.py" #tqcs
+	alias blender282="$HOME/app/blender2.82/Blender.app/Contents/MacOS/blender --python $HOME/blender/init.py"
+	alias blender283="$HOME/app/blender2.83/Blender.app/Contents/MacOS/blender --python $HOME/blender/init.py"
 elif [[ "$OSTYPE" == "linux-gnu" ]]; then
-	blender="$HOME/app/blender2.8/blender"
-fi
-
-# blender 실행
-if [ -f $blender ] && [ -d $HOME/blender ]; then
-	alias blender="$blender --python $HOME/blender/init.py"
-fi
-
-# blender 2.79 실행
-if [ -f $blender279 ] && [ -d $HOME/blender ]; then
-	alias blender279="$blender279 --python $HOME/blender/init.py"
-fi
-
-# blender dev 실행
-if [ -f $blenderdev ] && [ -d $HOME/blender ]; then
-	alias blenderdev="$blenderdev --python $HOME/blender/init.py"
+	alias blender279="$HOME/app/blender2.79/blender --python $HOME/blender/init.py" #tqcs
+	alias blender281="$HOME/app/blender2.81/Blender --python $HOME/blender/init.py" #tqcs
+	alias blender282="$HOME/app/blender2.82/Blender --python $HOME/blender/init.py"
+	alias blender283="$HOME/app/blender2.83/Blender --python $HOME/blender/init.py"
 fi
 
 # Natron
