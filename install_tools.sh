@@ -25,38 +25,7 @@ pip install numpy
 brew install tesseract # get string from image
 
 # ffmpeg
-brew install ffmpeg --with-aom \
---with-chromaprint \
---with-fdk-aac \
---with-fontconfig \
---with-freetype \
---with-frei0r \
---with-game-music-emu \
---with-libass \
---with-libbluray \
---with-libbs2b \
---with-libcaca \
---with-libgsm \
---with-libmodplug \
---with-librsvg \
---with-libsoxr \
---with-libssh \
---with-libvidstab \
---with-libvmaf \
---with-opencore-amr \
---with-openh264 \
---with-openjpeg \
---with-openssl \
---with-rtmpdump \
---with-rubberband \
---with-speex \
---with-srt \
---with-tesseract \
---with-two-lame \
---with-wavpack \
---with-webp \
---with-zeromq \
---with-zimg
+brew install ffmpeg
 
 # torrent
 go get github.com/anacrolix/torrent/cmd/torrent
