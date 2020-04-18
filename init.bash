@@ -88,12 +88,10 @@ fi
 # blender 경로설정
 if [[ "$OSTYPE" == "darwin"* ]]; then
 	alias blender279="$HOME/app/blender2.79/blender.app/Contents/MacOS/blender --python $HOME/blender/init.py" #tqcs
-	alias blender281="$HOME/app/blender2.81/Blender.app/Contents/MacOS/blender --python $HOME/blender/init.py" #tqcs
 	alias blender282="$HOME/app/blender2.82/Blender.app/Contents/MacOS/blender --python $HOME/blender/init.py"
 	alias blender283="$HOME/app/blender2.83/Blender.app/Contents/MacOS/blender --python $HOME/blender/init.py"
 elif [[ "$OSTYPE" == "linux-gnu" ]]; then
 	alias blender279="$HOME/app/blender2.79/blender --python $HOME/blender/init.py" #tqcs
-	alias blender281="$HOME/app/blender2.81/Blender --python $HOME/blender/init.py" #tqcs
 	alias blender282="$HOME/app/blender2.82/Blender --python $HOME/blender/init.py"
 	alias blender283="$HOME/app/blender2.83/Blender --python $HOME/blender/init.py"
 fi
