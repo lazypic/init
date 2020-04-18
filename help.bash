@@ -1,5 +1,5 @@
 echo "=========== Lazypic Alias ==========="
-echo "    blender281 : run blender"
+echo "    blender282 : run blender"
 echo "        natron : run natron"
 echo "    renderfarm : sheep it renderfarm"
 echo "      homepage : open homepage"
