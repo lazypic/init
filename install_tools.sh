@@ -3,7 +3,6 @@ brew install ripgrep # grep utility
 brew install wget
 brew install guetzli # image optimization
 brew install pandoc
-brew install mplayer
 brew install mpv
 brew install imagemagick
 brew install potrace # bitmap to vector
@@ -18,7 +17,6 @@ brew cask install keycastr # show key for ppt
 brew cask install osxfuse
 brew install s3fs
 brew install python3
-pip3 install blender-bam 
 pip install pyopengl
 pip install pyside2
 pip install numpy
@@ -26,6 +24,3 @@ brew install tesseract # get string from image
 
 # ffmpeg
 brew install ffmpeg
-
-# torrent
-go get github.com/anacrolix/torrent/cmd/torrent
