@@ -15,6 +15,9 @@ elif [[ `uname` == 'Darwin' ]]; then
 	export PATH=$PATH:$GOBIN
 fi
 
+# USD
+export PYTHONPATH=$HOME/Projects/Pixar/BUILD/USD/lib/python
+export PATH=$PATH:$HOME/Projects/Pixar/BUILD/USD/bin
 
 git() {
 	if [[ $@ == "log" ]]; then
