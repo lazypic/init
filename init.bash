@@ -15,6 +15,9 @@ elif [[ `uname` == 'Darwin' ]]; then
 	export PATH=$PATH:$GOBIN
 fi
 
+# USD
+export PYTHONPATH=$HOME/Projects/Pixar/BUILD/USD/lib/python
+export PATH=$PATH:$HOME/Projects/Pixar/BUILD/USD/bin
 
 git() {
 	if [[ $@ == "log" ]]; then
@@ -88,14 +91,14 @@ fi
 # blender 경로설정
 if [[ "$OSTYPE" == "darwin"* ]]; then
 	alias blender279="$HOME/app/blender2.79/blender.app/Contents/MacOS/blender --python $HOME/blender/init.py" #tqcs
-	alias blender281="$HOME/app/blender2.81/Blender.app/Contents/MacOS/blender --python $HOME/blender/init.py" #tqcs
 	alias blender282="$HOME/app/blender2.82/Blender.app/Contents/MacOS/blender --python $HOME/blender/init.py"
 	alias blender283="$HOME/app/blender2.83/Blender.app/Contents/MacOS/blender --python $HOME/blender/init.py"
+	alias blender290a="$HOME/app/blender2.90a/Blender.app/Contents/MacOS/blender --python $HOME/blender/init.py"
 elif [[ "$OSTYPE" == "linux-gnu" ]]; then
 	alias blender279="$HOME/app/blender2.79/blender --python $HOME/blender/init.py" #tqcs
-	alias blender281="$HOME/app/blender2.81/Blender --python $HOME/blender/init.py" #tqcs
 	alias blender282="$HOME/app/blender2.82/Blender --python $HOME/blender/init.py"
 	alias blender283="$HOME/app/blender2.83/Blender --python $HOME/blender/init.py"
+	alias blender290a="$HOME/app/blender2.90a/Blender --python $HOME/blender/init.py"
 fi
 
 # Natron

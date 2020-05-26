@@ -28,6 +28,3 @@ brew install tesseract # get string data from image
 
 # ffmpeg
 brew install ffmpeg
-
-# torrent
-go get github.com/anacrolix/torrent/cmd/torrent
