@@ -80,6 +80,7 @@ alias slideshare="$browser https://www.slideshare.net"
 alias wiki="$browser https://github.com/lazypic/blender/wiki"
 alias clib="$browser https://www.youtube.com/channel/UC0L_YtB4PWSkOwp2m9587MA/playlists?view_as=subscriber"
 alias centos="ssh woong@192.168.219.106"
+alias rmgitbranch="git branch | grep -v "master" | xargs git branch -D"
 
 
 # Software & app
